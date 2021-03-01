@@ -1,0 +1,15 @@
+
+
+body{
+    background:linear-gradient(to top right,#582a86, #170372) fixed;
+}
+h1{
+    color:whitesmoke;
+    font-style: italic;
+
+}
+p{
+    color:whitesmoke;
+    font-size: large;
+    font-style: italic;
+}
