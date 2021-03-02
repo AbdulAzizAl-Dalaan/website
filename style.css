@@ -1,15 +1,29 @@
-
-
-body{
-    background:linear-gradient(to top right,#582a86, #170372) fixed;
-}
 h1{
     color:whitesmoke;
-    font-style: italic;
-
+    font-family:monospace;
+    font-size:275%;
 }
 p{
     color:whitesmoke;
     font-size: large;
-    font-style: italic;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #7a46ad,#170370, rgb(143, 51, 43)) fixed;
+    background-size: 400%, 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+@keyframes change{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
